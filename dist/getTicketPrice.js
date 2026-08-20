@@ -16,12 +16,12 @@ const getTicketPrice = (age) => {
     }
     return price;
 };
-console.log(getTicketPrice(3));
+getTicketPrice(3);
 // 0
-console.log(getTicketPrice(10));
+getTicketPrice(10);
 // 100
-console.log(getTicketPrice(25));
+getTicketPrice(25);
 // 200
-console.log(getTicketPrice(65));
+getTicketPrice(65);
 // 120
 //# sourceMappingURL=getTicketPrice.js.map

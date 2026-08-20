@@ -10,12 +10,5 @@ const products = [
     { name: "USB Cable", price: 300 },
     { name: "USB Cable", price: 400 },
 ];
-const products2 = [
-    { name: "keyboard", price: 100 },
-    { name: "Mouse", price: 100 },
-    { name: "USB Cable", price: 100 },
-    { name: "USB Cable", price: 100 },
-];
-console.log(calculateCartTotal(products));
-console.log(calculateCartTotal(products2));
+calculateCartTotal(products);
 //# sourceMappingURL=calculateCartTotal.js.map

@@ -16,17 +16,17 @@ const getStockStatus = (stock) => {
     }
     return msg;
 };
-// console.log(getStockStatus(0));
-// // "Out of Stock"
-// console.log(getStockStatus(3));
-// // "Almost Sold Out"
-// console.log(getStockStatus(12));
-// // "Available"
-// console.log(getStockStatus(50));
-// // "In Stock"
+getStockStatus(0);
+// "Out of Stock"
+getStockStatus(3);
+// "Almost Sold Out"
+getStockStatus(12);
+// "Available"
+getStockStatus(50);
+// "In Stock"
 // boundary values to double-check:
-console.log(getStockStatus(5));
-console.log(getStockStatus(6));
-console.log(getStockStatus(20));
-console.log(getStockStatus(21));
+getStockStatus(5);
+getStockStatus(6);
+getStockStatus(20);
+getStockStatus(21);
 //# sourceMappingURL=getStockStatus.js.map

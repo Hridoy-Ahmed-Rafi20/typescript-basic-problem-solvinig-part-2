@@ -20,10 +20,10 @@ const tracks = [
 calculateTotalListeningTime(tracks);
 // 10
 
-const tracks2 = [ 
-    { title: "Flowers", minutes: 3 }, 
-    { title: "Anti-Hero", minutes: 4 } 
-]; 
-  
+const tracks2 = [
+  { title: "Flowers", minutes: 3 },
+  { title: "Anti-Hero", minutes: 4 },
+];
+
 calculateTotalListeningTime(tracks2);
-// 7 
+// 7

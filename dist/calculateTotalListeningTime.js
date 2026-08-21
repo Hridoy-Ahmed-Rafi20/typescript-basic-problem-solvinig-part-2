@@ -9,12 +9,12 @@ const tracks = [
     { title: "Levitating", minutes: 4 },
     { title: "Peaches", minutes: 3 },
 ];
-console.log(calculateTotalListeningTime(tracks));
+calculateTotalListeningTime(tracks);
 // 10
 const tracks2 = [
     { title: "Flowers", minutes: 3 },
-    { title: "Anti-Hero", minutes: 4 }
+    { title: "Anti-Hero", minutes: 4 },
 ];
-console.log(calculateTotalListeningTime(tracks2));
-// 7 
+calculateTotalListeningTime(tracks2);
+// 7
 //# sourceMappingURL=calculateTotalListeningTime.js.map

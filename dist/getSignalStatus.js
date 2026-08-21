@@ -16,11 +16,12 @@ const getSignalStatus = (strength) => {
     }
     return status;
 };
-console.log(getSignalStatus(10));
+getSignalStatus(10);
 // "Weak"
-console.log(getSignalStatus(35));
-// "Fair" 
-console.log(getSignalStatus(65));
-// "Good" 
-console.log(getSignalStatus(95));
+getSignalStatus(35);
+// "Fair"
+getSignalStatus(65);
+// "Good"
+getSignalStatus(95);
+// "Excellent"
 //# sourceMappingURL=getSignalStatus.js.map

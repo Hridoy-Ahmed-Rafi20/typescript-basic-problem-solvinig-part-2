@@ -12,11 +12,11 @@ const getSignalStatus = (strength: number): string => {
   return status;
 };
 
-console.log(getSignalStatus(10));
+getSignalStatus(10);
 // "Weak"
-console.log(getSignalStatus(35));
+getSignalStatus(35);
 // "Fair"
-console.log(getSignalStatus(65));
+getSignalStatus(65);
 // "Good"
-console.log(getSignalStatus(95));
+getSignalStatus(95);
 // "Excellent"

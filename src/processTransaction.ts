@@ -13,14 +13,12 @@ const processTransaction = (
   transaction: Deposit | Withdrawal,
 ): number => {
   if (transaction.type === "deposit") {
-    balance += transaction.amount;
+    return (balance += transaction.amount);
   } else if (balance <= transaction.amount) {
     return balance;
   } else {
-    balance -= transaction.amount;
+    return (balance -= transaction.amount);
   }
-
-  return balance;
 };
 
 processTransaction(5000, { type: "deposit", amount: 2000 });
